@@ -1,0 +1,39 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+  <!--<h3>Dashboard Content Area</h3>
+  <div>
+    To change the content of this section, you will make edits to the dashboard.html file located in the /js/views folder.
+  </div>-->
+
+  <ul id="listview" aria-label="list using observable array" class="oj-listview-element">
+    <!-- ko foreach: tweets()  -->
+    <li role="option" class="oj-listview-item-element oj-listview-item" data-bind="click: $parent.loadTweetDetails" aria-selected="false">
+
+
+      <div class="oj-flex-bar">
+        <div class="oj-flex-bar-middle oj-flex-bar">
+          <div class="oj-flex-bar-middle">
+            <div class="container">
+              <div>
+                <span class="account-name" data-bind="text: created_at"></span>
+              </div>
+              <div>
+                <span class="oj-text-xs oj-text-secondary-color" data-bind="text: text"></span>
+              </div>
+            </div>
+          </div>
+          <div class="oj-flex-bar-end">
+            <span class="oj-flex-item" data-bind="text: user.name"></span>
+          </div>
+        </div>
+      </div>
+
+    </li>
+    <!-- /ko -->
+  </ul>
+
+
+</div>

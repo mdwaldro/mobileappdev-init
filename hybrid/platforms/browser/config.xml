@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.oraclejet.scaffoldboth" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TwitterAppDev</name>
+    <description>
+        A sample Oracle JavaScript Extension Toolkit (JET) mobile app based on Cordova
+    </description>
+    <author email="undefined" href="undefined">
+        Oracle Jet Team
+    </author>
+    <content src="http://127.0.0.1:8000/ios/www/index.html" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
+    <allow-navigation href="http://127.0.0.1/*" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <hook src="scripts/hooks/jetAfterPrepare.js" type="after_prepare" />
+</widget>

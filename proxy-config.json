@@ -1,0 +1,5 @@
+{
+  "port": "8000",
+  "apiServer": "https://mcsdem020117-mcsdem020117.mobileenv.us2.oraclecloud.com:443",
+  "platform": "ios"
+}
