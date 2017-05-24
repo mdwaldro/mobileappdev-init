@@ -3,17 +3,17 @@
         "mobileBackends": {
             "JET_MCS_APPDEV": {
                 "default": true,               
-                  "baseUrl": typeof cordova === "object" ? "https://mcsdem020117-mcsdem020117.mobileenv.us2.oraclecloud.com:443" : "http://localhost:8000",
+                  "baseUrl": typeof cordova === "object" ? "https://mcsdem051017-mcsdem051017.mobileenv.us2.oraclecloud.com:443" : "http://localhost:8000",
                 "applicationKey": "9a9979d6-48d4-4d8a-b4d5-0b55f82d0b3a",
                 "authorization": {
                     "basicAuth": {
-                        "backendId": "4f420df0-a749-465b-a135-9a41b9ea6ad5",
-                        "anonymousToken": "TUNTREVNMDIwMTE3X01DU0RFTTAyMDExN19NT0JJTEVfQU5PTllNT1VTX0FQUElEOkV0bDRtcHJ2ZGswX3Vl"
+                        "backendId": "022dc407-60fc-40da-8324-ff4e35a0c53e",
+                        "anonymousToken": "TUNTREVNMDUxMDE3X01DU0RFTTA1MTAxN19NT0JJTEVfQU5PTllNT1VTX0FQUElEOlViZ2Nqb2R0aTB3NF9r"
                     },
                     "oAuth": {
-                        "clientId": "3b0d032b-d6cb-4eb3-bdb9-42d4a1a506d8",
-                        "clientSecret": "yjojxJQAvykAAUVuLOB6",
-                        "tokenEndpoint": "https://mcsdem020117.identity.us.oraclecloud.com/oam/oauth2/tokens"
+                        "clientId": "c673a039-cac0-4678-acd6-7b0484042a34",
+                        "clientSecret": "xHYXXYkaIGUIUhRkqKg8",
+                        "tokenEndpoint": "https://mcsdem051017.identity.us.oraclecloud.com/oam/oauth2/tokens"
                     }
                 }
             }
@@ -28,17 +28,17 @@ define(['jquery', 'mcs'], function ($, mcs) {
         "mobileBackends": {
             "JET_MCS_APPDEV": {
                 "default": true,
-               "baseUrl": typeof cordova === "object" ? "https://mcsdem020117-mcsdem020117.mobileenv.us2.oraclecloud.com:443" : "http://localhost:8000",
+               "baseUrl": typeof cordova === "object" ? "https://mcsdem051017-mcsdem051017.mobileenv.us2.oraclecloud.com:443" : "http://localhost:8000",
                 "applicationKey": "9a9979d6-48d4-4d8a-b4d5-0b55f82d0b3a",
                 "authorization": {
                     "basicAuth": {
-                        "backendId": "4f420df0-a749-465b-a135-9a41b9ea6ad5",
-                        "anonymousToken": "TUNTREVNMDIwMTE3X01DU0RFTTAyMDExN19NT0JJTEVfQU5PTllNT1VTX0FQUElEOkV0bDRtcHJ2ZGswX3Vl"
+                        "backendId": "022dc407-60fc-40da-8324-ff4e35a0c53e",
+                        "anonymousToken": "TUNTREVNMDUxMDE3X01DU0RFTTA1MTAxN19NT0JJTEVfQU5PTllNT1VTX0FQUElEOlViZ2Nqb2R0aTB3NF9r"
                     },
                     "oAuth": {
-                        "clientId": "3b0d032b-d6cb-4eb3-bdb9-42d4a1a506d8",
-                        "clientSecret": "yjojxJQAvykAAUVuLOB6",
-                        "tokenEndpoint": "https://mcsdem020117.identity.us.oraclecloud.com/oam/oauth2/tokens"
+                        "clientId": "c673a039-cac0-4678-acd6-7b0484042a34",
+                        "clientSecret": "xHYXXYkaIGUIUhRkqKg8",
+                        "tokenEndpoint": "https://mcsdem051017.identity.us.oraclecloud.com/oam/oauth2/tokens"
                     }
                 }
             }
